@@ -1,0 +1,10 @@
+.header__langs {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 18px;
+  text-underline-offset: 3px;
+  padding-top: 10px;
+}

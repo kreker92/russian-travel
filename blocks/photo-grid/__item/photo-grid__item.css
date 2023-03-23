@@ -1,0 +1,7 @@
+.photo-grid__item {
+  line-height: 0;
+}
+
+.photo-grid__image {
+  width: 100%;
+}
