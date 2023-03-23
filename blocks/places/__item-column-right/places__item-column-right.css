@@ -1,9 +1,9 @@
-.places__item_column-right {
+.places__item-column-right {
   flex-basis: 49%;
 }
 
 @media screen and (max-width: 600px) {
-  .places__item_column-right {
+  .places__item-column-right {
     flex-basis: 100%;
   }
 }
