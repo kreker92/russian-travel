@@ -3,9 +3,6 @@
   display: flex;
   flex-flow: column;
   gap: 12px;
-}
-
-.places__item-website {
   align-self: flex-end;
 }
 
