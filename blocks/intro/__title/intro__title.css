@@ -6,12 +6,6 @@
   padding-bottom: 40px;
 }
 
-@media screen and (max-width: 768px) {
-  .intro__title {
-    font-size: 54px;
-  }
-}
-
 @media screen and (max-width: 540px) {
   .intro__title {
     font-size: calc(100vw * 0.1);

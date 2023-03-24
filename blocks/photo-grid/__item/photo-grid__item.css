@@ -1,7 +1,10 @@
 .photo-grid__item {
   line-height: 0;
+  overflow: hidden;
 }
 
-.photo-grid__image {
-  width: 100%;
+@media screen and (max-width: 320px) {
+  .photo-grid__item {
+    min-height: calc(.75 * (320px - (2 * 16px)));
+  }
 }

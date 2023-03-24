@@ -1,29 +1,12 @@
 .places__item-website {
-  font-size: 18px;
-  line-height: 1.22;
-  color: #fff;
-  position: relative;
-  padding-top: calc(12px + 12px);
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  gap: 12px;
+}
+
+.places__item-website {
   align-self: flex-end;
-  text-underline-offset: 2.5px;
-  transition: linear opacity .3s;
-}
-
-.places__item-website:hover {
-  opacity: .8;
-}
-
-.places__item-website:before {
-  content: 'url';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  text-transform: uppercase;
-  font-size: 12px;
-  line-height: 1;
-  letter-spacing: 2px;
-  color: #aaa;
 }
 
 @media screen and (max-width: 600px) {

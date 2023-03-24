@@ -1,5 +1,11 @@
 .places__item-column-left {
-  flex-basis: 47%;
+  flex-basis: 46.7%;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__item-column-left {
+    flex-basis: 47.3%;
+  }
 }
 
 @media screen and (max-width: 600px) {

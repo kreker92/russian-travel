@@ -15,4 +15,4 @@
 
 ## Ссылка на проект
 
-+ Сделать не полуилось
+https://kreker92.github.io/russian-travel/
